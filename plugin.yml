@@ -1,0 +1,19 @@
+name: AutoSprint
+main: Zedstar16\AutoSprint\Main
+version: 1.0
+api: 3.9.0
+load: POSTWORLD
+author: Zedstar16
+description: Zed
+website: https://github.com/Zedstar16/AutoSprint
+
+commands:
+ autosprint:
+  description: "Always Sprint"
+  usage: "/autosprint [player]"
+  permission: autosprint
+
+permissions:
+ autosprint:
+  default: op
+  description: "autosprint perm node"
